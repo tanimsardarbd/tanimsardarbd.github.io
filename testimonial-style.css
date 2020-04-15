@@ -1,0 +1,424 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-style{
+    height: 30px;
+    width: 30px;
+}
+
+.logo-label-style{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.navbar-default{
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-brand{
+    padding: 10px;
+    width: 75px;
+}
+
+.nav-right{
+    padding-top: 7px;
+    padding-right: 10px;
+    position: inherit;
+    float: right;
+    margin-right: -15px
+}
+
+.center-nav{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.top-nav-style{
+    color: #fff;
+    height: 20px;
+}
+
+.top-nav-style, .p{
+    margin: 0px;
+}
+
+.container-color{
+    background-color: #112126;
+}
+
+.container-color-new{
+    background-color: #112126b7;
+    transition: 1s ease;
+}
+
+.transparent-color{
+    background-color: #11212600;
+    transition: 1s ease;
+}
+
+#nav {
+    width: 475px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#nav li {
+    float:left;  
+}
+
+#nav a {
+    display:block;
+    text-align:center;
+    width: auto;
+    margin: 15px;
+    text-decoration:none;
+    color: #fff;
+}
+
+.btn-style-login{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: #fff solid 2px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-style-register{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: #fff solid 2px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.li-app{
+    width: 60px;
+    height: 50px;
+}
+
+.li-dating{
+    width: 117px;
+    height: 50px;
+}
+
+.li-testi{
+    width: 105px;
+    height: 50px;
+}
+
+.li-help{
+    width: 105px;
+    height: 50px;
+}
+
+.li-about{
+    width: 88px;
+    height: 50px;
+}
+
+.li-bg{
+    background-color: #114555;
+}
+
+.fit{
+    margin: 0;
+    width: 100%;
+}
+
+.container{
+    padding-top: 40px;
+}
+
+.footer{
+    height: 100%;
+    width: 100%;
+    background-image: url("../css/photos/footer.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.right-margin{
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.iMet{
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.footer-list{
+    color: #707070;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.remove-padding{
+    padding: 0;
+}
+
+.row-space-top{
+    margin-top: 20px;
+}
+
+.p-color{
+    margin-bottom: 0px;
+    color: #95989A;
+}
+
+.icon-size{
+    width: 30px;
+    height: 30px;
+}
+
+.padding-col{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 58px;
+}
+
+.hr-color{
+    border-color: #95989A;
+}
+
+.copyright-color{
+    color: #95989A;
+    margin-bottom: 40px;
+}
+
+.content{
+    height: 100%; 
+    background-image: url("../css/photos/testimonialbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+@font-face{
+    font-family: script;
+    src: url(../fonts/SCRIPTBL.TTF);
+}
+
+.contain{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 5px;
+    font-family: script;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.color-blue{
+    color: #0088FF;
+}
+
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-pink{
+    color: #FF005F;
+}
+
+.mid{
+    text-align: center;
+}
+
+.btn-size{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    padding-left: 7px;
+    padding-top: 3px;
+    background-color: #fff;
+}
+
+.btn-size1{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    padding-left: 7px;
+    background-color: #fff;
+}
+
+.arrow-size{
+    height: 10px;
+    width: 15px;
+}
+
+.arrow-size1{
+    color: #000;
+    font-size: 13px;
+}
+
+.count{
+    float: right;
+    position: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+
+.message-panel{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+}
+
+.space-top{
+    margin-top: 20px;
+}
+
+.col-fix{
+    width: 170px;
+}
+
+.pic-size{
+    height: 170px;
+    width: 170px;
+}
+
+.row-padding{
+    padding-top: 20px;
+}
+
+.text-black{
+    color: #000;
+}
+
+.double-quote{
+    margin-top: 30px;
+    margin-left: -20px;
+    font-size: 40px;
+    line-height: 0px;
+}
+
+.double-quote1{
+    font-size: 40px;
+    line-height: 0px;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: -15px;
+}
+
+.remove-margin{
+    margin: 0px;
+    padding: 0px;
+}
+
+.color{
+    background-color: #0088FF;
+}
+
+.text-size{
+    font-size: 15px;
+    color: #000;
+    line-height: normal;
+}
+
+.person{
+    float: right;
+    margin-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 800px) {
+    #nav {
+        width: 520px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #nav {
+        width: auto;
+        padding-left: 40px;
+    }
+    .nav-right{
+        display: flex;
+        float: left;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .padding-left{
+        padding-left: 23px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .nav-right{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .padding-col{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 56px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .padding-col{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .padding-col{
+        padding: 0px;
+    }
+
+    .mar-top{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1277px) {
+    .col-fix{
+        width: 100%;
+    }
+    
+    .move-col{
+        width: 100%;
+    }
+}

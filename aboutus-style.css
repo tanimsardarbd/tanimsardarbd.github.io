@@ -1,0 +1,400 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-style{
+    height: 30px;
+    width: 30px;
+}
+
+.logo-label-style{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
+.navbar-default{
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-brand{
+    padding: 10px;
+    width: 75px;
+}
+
+.nav-right{
+    padding-top: 7px;
+    padding-right: 10px;
+    position: inherit;
+    float: right;
+    margin-right: -15px
+}
+
+.center-nav{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.top-nav-style{
+    color: #fff;
+    height: 20px;
+}
+
+.top-nav-style, .p{
+    margin: 0px;
+}
+
+.container-color{
+    background-color: #112126;
+}
+
+.container-color-new{
+    background-color: #112126b7;
+    transition: 1s ease;
+}
+
+.transparent-color{
+    background-color: #11212600;
+    transition: 1s ease;
+}
+
+#nav {
+    width: 475px;
+    margin:0 auto;
+    list-style:none;
+}
+
+#nav li {
+    float:left;  
+}
+
+#nav a {
+    display:block;
+    text-align:center;
+    width: auto;
+    margin: 15px;
+    text-decoration:none;
+    color: #fff;
+}
+
+.btn-style-login{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: #fff solid 2px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-style-register{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: #fff solid 2px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.li-app{
+    width: 60px;
+    height: 50px;
+}
+
+.li-dating{
+    width: 117px;
+    height: 50px;
+}
+
+.li-testi{
+    width: 105px;
+    height: 50px;
+}
+
+.li-help{
+    width: 105px;
+    height: 50px;
+}
+
+.li-about{
+    width: 88px;
+    height: 50px;
+}
+
+.li-bg{
+    background-color: #114555;
+}
+
+.fit{
+    margin: 0;
+    width: 100%;
+}
+
+.container{
+    padding-top: 40px;
+}
+
+.footer{
+    height: 100%;
+    width: 100%;
+    background-image: url("../css/photos/footer.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.right-margin{
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.iMet{
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.footer-list{
+    color: #707070;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.remove-padding{
+    padding: 0;
+}
+
+.row-space-top{
+    margin-top: 20px;
+}
+
+.p-color{
+    margin-bottom: 0px;
+    color: #95989A;
+}
+
+.icon-size{
+    width: 30px;
+    height: 30px;
+}
+
+.padding-col{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 58px;
+}
+
+.hr-color{
+    border-color: #95989A;
+}
+
+.copyright-color{
+    color: #95989A;
+    margin-bottom: 40px;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+}
+
+.mid{
+    text-align: center;
+}
+
+.row-header{
+    margin-top: 50px;
+    background-image: url("../css/photos/aboutusbg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.col-left{
+    text-align: right;
+}
+
+.col-right{
+    text-align: left;
+}
+
+.sight{
+    height: 320px;
+    width: 320px;
+}
+
+@font-face{
+    font-family: mssans;
+    src: url(../fonts/micross.ttf);
+}
+
+.col-font{
+    font-family: mssans;
+    color: #fff;
+}
+
+.custom-p1{
+    margin-left: 20px;
+    margin-top: 120px;
+    font-size: 60px;
+    line-height: 5px;
+}
+
+.custom-p2{
+    margin-left: 20px;
+    margin-top: 45px;
+    font-size: 60px;
+    line-height: 5px;
+}
+
+.custom-p3{
+    margin-left: 23px;
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 5px;
+}
+
+.row-padding{
+    margin-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.hr-properties{
+    margin: -10px 0px 0px 80px;
+    border: 1px solid #95989A;
+}
+
+.row-padding1{
+    padding-top: 40px;
+    padding-left: 170px;
+    padding-right: 170px;
+    color: #707070;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.p-style{
+    font-size: 15px;
+}
+
+.ul-style{
+    list-style-type: disc;
+    margin-top: 20px;
+}
+
+.list-style{
+    margin-left: 70px;
+}
+
+.color-blue{
+    color: #6D95D9;
+    margin: 0px 0px 0px 20px;
+}
+
+.mar-bot{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    #nav {
+        width: 520px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #nav {
+        width: auto;
+        padding-left: 40px;
+    }
+    .nav-right{
+        display: flex;
+        float: left;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .padding-left{
+        padding-left: 23px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .nav-right{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .padding-col{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 56px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .padding-col{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .padding-col{
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .col-left{
+        text-align: center;
+    }
+    
+    .col-right{
+        text-align: center;
+    }
+
+    .custom-p1{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .custom-p2{
+        margin-left: 0px;
+    }
+
+    .custom-p3{
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+
+    .row-padding{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .row-padding1{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
